@@ -1,0 +1,3 @@
+#!/bin/bash
+cp char.cls charmath.tex /usr/share/texmf/tex/latex/
+texhash

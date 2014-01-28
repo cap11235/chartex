@@ -14,6 +14,13 @@
 \RequirePackage{calc}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{listings}
+\RequirePackage{lipsum}
+\RequirePackage{changepage}
+\RequirePackage{units}
+\RequirePackage{wrapfig}
+\RequirePackage{circuitikz}
+
+\input{charmath.tex}
 
 \def\char@name{}
 \def\char@class{}
@@ -85,7 +92,3 @@
 }{%
 \nolinebreak$\blacksquare$\end{adjustwidth}\ \\%
 }
-\input{math.tex}
-\usepackage{lipsum}
-\usepackage{changepage}
-\input{unicode.tex}
